@@ -1,4 +1,4 @@
-import FlexContainer from '../common/FlexContainer/FlexContainer';
+import { FlexContainer } from '../common';
 import { BookeReaderIcon, BookIcon, PathIcon } from '../common/icons/Icon';
 import './bestservice.css';
 

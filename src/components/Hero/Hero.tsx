@@ -1,18 +1,17 @@
-import FlexContainer from '../common/FlexContainer/FlexContainer';
+import { FlexContainer, HeroImage } from '../common';
+import { Frame1, Frame2, Frame3, Frame4 } from '../common/images/images';
 import ContactBar from '../Header/ContactBar';
 import NavBar from '../Header/NavBar';
-import Frame1 from '../../assets/image/images/frame-1.svg';
-import Frame2 from '../../assets/image/images/frame-2.svg';
-import Frame3 from '../../assets/image/images/frame-3.svg';
-import Frame4 from '../../assets/image/images/frame-4.svg';
+
 import './hero.css';
-import HeroImage from '../common/HeroImage/HeroImage';
 
 export default function Hero() {
     return (
         <>
-            <ContactBar />
-            <NavBar />
+            <header>
+                <ContactBar />
+                <NavBar />
+            </header>
 
             <section className="hero">
                 <FlexContainer>

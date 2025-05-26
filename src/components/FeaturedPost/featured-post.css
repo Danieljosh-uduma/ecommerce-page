@@ -1,7 +1,7 @@
 .post-card {
     width: 340px;
     height: 600px;
-    box-shadow: 0px 2px 4px 0px #0000001A;
+    box-shadow: 0px 2px 4px 0px #0000001a;
 }
 .post-card__image {
     width: 100%;
@@ -84,7 +84,6 @@
     }
 }
 
-
 /* Product list container  */
 .featured__list--container {
     justify-content: center;
@@ -92,7 +91,7 @@
 .featured__list--title {
     text-align: center;
     margin-bottom: 60px;
-    
+
     h6 {
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-sm);

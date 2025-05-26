@@ -1,4 +1,4 @@
-import Frame5 from '../../assets/image/images/frame-5.svg';
+import { Frame5 } from '../common/images/images';
 import './product.css';
 
 export default function ProductCard() {

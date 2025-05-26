@@ -1,7 +1,9 @@
-import FlexContainer from '../common/FlexContainer/FlexContainer';
-import FeatureImage1 from '../../assets/image/images/featured-1.svg'
-import FeatureImage2 from '../../assets/image/images/featured-2.svg';
-import FeatureImage3 from '../../assets/image/images/featured-3.svg';
+import { FlexContainer } from '../common';
+import {
+    FeatureImage1,
+    FeatureImage2,
+    FeatureImage3,
+} from '../common/images/images';
 import PostCard from './PostCard';
 
 export default function FeaturedPost() {
@@ -12,7 +14,7 @@ export default function FeaturedPost() {
                 <h2>Featured Products</h2>
             </div>
 
-            <FlexContainer className='featured__list--container'>
+            <FlexContainer className="featured__list--container">
                 <PostCard image={FeatureImage1} />
                 <PostCard image={FeatureImage2} />
                 <PostCard image={FeatureImage3} />

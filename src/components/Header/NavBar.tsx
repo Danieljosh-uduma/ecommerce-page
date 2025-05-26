@@ -7,7 +7,7 @@ import {
     SearchIcon,
 } from '../common/icons/Icon';
 import './style/navbar.css';
-import FlexContainer from '../common/FlexContainer/FlexContainer';
+import { FlexContainer, Logo } from '../common';
 
 export default function NavBar() {
     const [showDropdown, setShowDropdown] = useState(false);
@@ -15,9 +15,7 @@ export default function NavBar() {
     return (
         <nav className="navbar">
             <div className="navbar__navItems">
-                <a href="">
-                    <h3 className="navbar__logo">Bandage</h3>
-                </a>
+                <Logo />
 
                 <ul className="navbar__navigations">
                     <li>

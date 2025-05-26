@@ -1,4 +1,4 @@
-button {
+.button {
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
     padding: 15px 45px;

@@ -1,4 +1,4 @@
-import Button from '../common/Button/Button';
+import { Button } from '../common';
 import ProductCard from './ProductCard';
 
 export default function ProductList() {

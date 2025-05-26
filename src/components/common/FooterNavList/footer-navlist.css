@@ -1,0 +1,28 @@
+.footer-nav-list {
+    h5 {
+        font-size: var(--font-size-base);
+        margin-bottom: 20px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        li {
+            font-size: var(--font-size-sm);
+            line-height: 24px;
+
+            a {
+                font-size: var(--font-size-sm);
+                font-weight: var(--font-weight-bold);
+                color: var(--text-color-2);
+                transition: color var(--transition);
+
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+}

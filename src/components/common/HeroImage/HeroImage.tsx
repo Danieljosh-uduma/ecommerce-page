@@ -7,6 +7,12 @@ interface HeroImageProps {
     children: ReactNode;
 }
 
+// HeroImage component displays a hero section with an image and overlay content.
+// Props:
+// - src: image source URL
+// - alt: alternative text for the image (optional)
+// - children: content to display over the image
+
 export default function HeroImage(props: HeroImageProps) {
     const { src, alt, children } = props;
     const altText = alt ? alt : '';

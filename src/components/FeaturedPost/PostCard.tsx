@@ -1,5 +1,4 @@
-import FlexContainer from '../common/FlexContainer/FlexContainer';
-import HeroImage from '../common/HeroImage/HeroImage';
+import { FlexContainer, HeroImage } from '../common';
 import { ArrowRightIcon, ChartIcon, ClockIcon } from '../common/icons/Icon';
 import './featured-post.css';
 
@@ -24,7 +23,7 @@ export default function PostCard(props: PostCardProps) {
                     <h6>Trending</h6>
                     <h6>New</h6>
                 </FlexContainer>
-                
+
                 <div className="post-card__content-title">
                     <h4>Loudest à la Madison #1 (L'integral)</h4>
                     <p>
@@ -45,8 +44,10 @@ export default function PostCard(props: PostCardProps) {
                 </FlexContainer>
 
                 <FlexContainer className="post-card__content-footer">
-                    <a href='' className="btn">Learn More</a>
-                    <ArrowRightIcon className='content-icon'/>
+                    <a href="" className="btn">
+                        Learn More
+                    </a>
+                    <ArrowRightIcon className="content-icon" />
                 </FlexContainer>
             </div>
         </div>
