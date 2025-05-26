@@ -1,11 +1,15 @@
-export default function App() {
-    const name = 'hello world';
-    const age = 20;
-    const food = 'matt';
+import BestService from './components/BestServices/BestService';
+import FeaturedPost from './components/FeaturedPost/FeaturedPost';
+import Hero from './components/Hero/Hero';
+import ProductList from './components/Product/ProductList';
 
+export default function App() {
     return (
-        <h1>
-            {name} is {age} years old i like {food}
-        </h1>
+        <>
+            <Hero />
+            <ProductList />
+            <BestService />
+            <FeaturedPost />
+        </>
     );
 }

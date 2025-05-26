@@ -1,19 +1,25 @@
 import { type ReactNode } from 'react';
+import './button.css';
 
 interface ButtonPropI {
     children: ReactNode;
-    className: string;
-    disabled: boolean;
     variant: 'fill' | 'empty';
-    onclick(): void;
+    IsLoading: boolean;
+    onclick?(): void;
 }
 
 export default function Button(props: ButtonPropI) {
-    const { children } = props;
+    const { children, variant, onclick, IsLoading } = props;
+    const variantClass = variant === 'fill' ? 'button--fill' : 'button--empty';
 
     return (
-        <button type="button" className="" disabled={false} onClick={() => {}}>
-            {children}
+        <button
+            type="button"
+            className={variantClass}
+            disabled={IsLoading}
+            onClick={onclick}
+        >
+            {IsLoading ? 'LOADING...' : children}
         </button>
     );
 }

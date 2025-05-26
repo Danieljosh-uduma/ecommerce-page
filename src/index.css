@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #23a6f0;
+    --secondary-color: #23856d;
+    --success-color: #2dc071;
+    --danger-color: #e74040;
+    --text-color: #252b42;
+    --text-color-2: #737373;
+    --background-color: #ffffff;
+    --muted-color: #bdbdbd;
+
+    --font-family: Montserrat, sans-serif;
+    --font-size-base: 1rem;
+    --font-size-xs: 0.75rem;
+    --font-size-xlg: 2.5rem;
+    --font-size-lg: 1.5rem;
+    --font-size-md: 1.25rem;
+    --font-size-sm: 0.875rem;
+
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --line-height-base: 1.5;
+
+    --border-radius: 5px;
+    --transition: 0.2s ease-in-out;
+}
+
+/* Importing fonts */
+@font-face {
+    font-family: Montserrat;
+    src: url(/src/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+        url(/src/assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+        format('truetype');
+}
+
+/* Universal styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all var(--transition);
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-base);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+h2 {
+    font-size: var(--font-size-xlg);
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+h3 {
+    font-size: var(--font-size-lg);
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+h4 {
+    font-size: var(--font-size-md);
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+h6 {
+    font-size: var(--font-size-sm);
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: var(--font-size-base);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* images  */
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+}
