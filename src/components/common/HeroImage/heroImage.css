@@ -1,0 +1,38 @@
+/* HERO IMAGE  */
+.hero-image__container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hero-image__image {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.hero-image__content {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-image__text {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+}
+.success {
+    color: var(--success-color);
+}
