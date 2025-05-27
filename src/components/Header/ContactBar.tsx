@@ -24,7 +24,9 @@ export default function ContactBar() {
                         </a>
                     </div>
                 </li>
-                <li>Follow Us and get a chance to win 80% off</li>
+                <li className="contact-bar__promotion">
+                    Follow Us and get a chance to win 80% off
+                </li>
                 <Socials />
             </ul>
         </nav>

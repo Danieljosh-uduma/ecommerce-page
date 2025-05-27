@@ -21,6 +21,8 @@ import Twitter from '../../../assets/image/icons/twitter.svg';
 import TwitterBlue from '../../../assets/image/icons/twitter-blue.svg';
 import Youtube from '../../../assets/image/icons/youtube.svg';
 import ArrowRight from '../../../assets/image/icons/arrow-right.svg';
+import MobileSearch from '../../../assets/image/icons/mobile-search.svg';
+import MobileCart from '../../../assets/image/icons/mobile-cart.svg';
 
 interface IconProps {
     className?: string;
@@ -138,6 +140,22 @@ function ArrowRightIcon({ className }: IconProps) {
     );
 }
 
+function MobileSearchIcon({ className }: IconProps) {
+    return (
+        <img
+            src={MobileSearch}
+            className={className}
+            alt="Mobile Search Icon"
+        />
+    );
+}
+
+function MobileCartIcon({ className }: IconProps) {
+    return (
+        <img src={MobileCart} className={className} alt="Mobile Cart Icon" />
+    );
+}
+
 export {
     ArrowdownIcon,
     BookIcon,
@@ -162,4 +180,6 @@ export {
     TwitterBlueIcon,
     YoutubeIcon,
     ArrowRightIcon,
+    MobileSearchIcon,
+    MobileCartIcon,
 };

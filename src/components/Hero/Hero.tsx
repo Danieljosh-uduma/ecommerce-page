@@ -14,7 +14,7 @@ export default function Hero() {
             </header>
 
             <section className="hero">
-                <FlexContainer>
+                <FlexContainer className="hero__container">
                     <div className="hero-image__left">
                         <HeroImage src={Frame1}>
                             <h6 className="success">5 Times</h6>

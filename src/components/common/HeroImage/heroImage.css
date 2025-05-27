@@ -36,3 +36,11 @@
 .success {
     color: var(--success-color);
 }
+
+@media only screen and (max-width: 768px) {
+    .hero-image__image {
+        img {
+            object-position: top left;
+        }
+    }
+}
