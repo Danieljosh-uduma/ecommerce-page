@@ -93,10 +93,11 @@
     .product__image {
         width: 295px;
         height: 360px;
-        place-self: center;
+        margin: 0 auto;
     }
     .product__card {
-        place-self: center;
+        width: 295px;
+        margin: 0 auto;
     }
     .product__list--title {
         h4 {
@@ -108,11 +109,11 @@
     .product__list--title {
         h3 {
             width: 200px;
-            place-self: center;
+            margin: 0 auto;
         }
         p {
             width: 200px;
-            place-self: center;
+            margin: 0 auto;
         }
     }
 }

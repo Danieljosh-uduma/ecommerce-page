@@ -48,3 +48,18 @@
 .service__list {
     padding: 150px 0 50px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .service__list--container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .service__list--title {
+        p {
+            width: 196px;
+            margin: 20px auto;
+        }
+    }
+}

@@ -37,7 +37,10 @@ export default function Footer() {
             </FlexContainer>
 
             <div className="footer__copyright">
-                <p>Made With Love By Finland All Right Reserved</p>
+                <p>
+                    Made With Love By <br className="mobile-break" /> Finland
+                    All Right Reserved
+                </p>
             </div>
         </section>
     );

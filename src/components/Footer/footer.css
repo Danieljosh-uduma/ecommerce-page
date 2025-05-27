@@ -46,3 +46,35 @@
         color: var(--text-color-2);
     }
 }
+.mobile-break {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer__nav-container {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+    .footer__nav-list-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer__logo--container {
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+        padding-top: 30px;
+        border: none;
+    }
+    .footer__logo--social {
+        justify-content: start;
+    }
+    .footer__copyright {
+        p {
+            text-align: center;
+        }
+    }
+    .mobile-break {
+        display: block;
+    }
+}
