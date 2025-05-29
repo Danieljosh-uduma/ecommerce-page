@@ -30,9 +30,13 @@ A simple ecommerce platform built for learning and demonstration purposes.
 
 ```
 /src
-  /components
-  /pages
   /api
+  /assets
+  /components
+  /layout
+  /state
+  App.css
+  App.tsx
 ```
 
 ## Contributing
